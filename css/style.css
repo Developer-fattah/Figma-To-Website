@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+p{
+    font-family: "Poppins", serif;
+}
+h1 , h2, h3, h4{
+    font-family: "League Spartan", serif;
+}
+body{
+    background-color: #FFF8F0;
+}
+/* Header starts here */
+
+.header{
+    max-width: 1440px;
+    display: flex;
+    
+}
+
+.left{
+    width: 50%;
+    padding: 30px 20px 0px 0px;
+    margin-left: 180px;  
+}
+.top{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    font-family: "Poppins", serif;    
+   
+}
+.top a{
+    text-decoration: none;
+}
+.top p img{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+
+}
+.intro h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.30px;
+    color: #291854;
+    margin-top: 30px;
+}
+.intro h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+}
+.intro h1 span{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 50px;
+    color: #190D37;
+}
+.yellowline{
+    margin-top: -16px;
+    width: 215px;
+    position: absolute;
+    z-index: -1;
+     
+
+}
+.intro-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #331E6A;
+    margin-top: 15px;
+}
+.contact-me{
+    width: 138px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-family: "Poppins", serif;
+    
+    cursor: pointer;
+}
+
+.contact-me:hover{
+    color: black;
+    background-color: #FFD748;
+    width: 145px;
+    height: 50px;
+    transition: 0.5s ease;
+}
+
+.right{
+    width: 50%;
+    margin-top: 0;
+    margin-right: 0;
+    
+}
+.main-image{
+    width: 100%;
+    margin-right: 0;
+}
+/* Header ENDS here */
+
+/* Main section 1 starts here */
+.main{
+    max-width: 1060px;
+    border-radius: 10px;
+    margin: 50px auto 0 auto;
+    
+}
+.main .top2{
+    max-width: 700px;
+    margin: 50px auto 0px auto;
+} 
+
+.top2 h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2858FF;
+}
+.top2 h1{
+    text-align: center;
+    font-weight: 700;
+    size: 36px;
+    line-height: 40px;
+    color: #000000;
+}
+.top2 p{
+    text-align: center;
+    font-weight: 400;
+    size: 18px;
+    line-height: 27px;
+    color: #190D37;
+    margin-bottom: 30px;
+}
+.top3{
+   
+    display: flex;
+}
+.box1{
+    width: 340px;
+    background-color: #ffffff;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.box1 h1{
+    text-align: center;
+    font-weight: 600;
+    size: 18px;
+    line-height: 27px;
+    color: #000000;
+    padding-top: 10px;
+}
+.box1 p{
+    text-align: center;
+    font-weight: 400;
+    size: 18px;
+    line-height: 24px;
+    color: #55206D;
+    padding: 10px;
+}
+
+/* Main section 1 ENDS here */
+
+/* Main section 2 starts here */
+.main-2{
+    
+    max-width: 1060px;
+    
+    margin: 60px auto 0 auto;
+    border-radius: 10px;
+}
+
+.main-2 .top4{
+    max-width: 700px;
+    margin: 60px auto 0 auto;
+}
+
+.project-1{
+    display: flex;
+    margin-bottom: 8px;
+    margin-bottom: 8px;
+    
+}
+.project-description{
+    margin-left: 10px;
+}
+.project-description h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #291854;
+}
+.project-description p{
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #55206D;
+    margin-bottom: 10px;
+}
+.project-description a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #2858FF;
+}
+.project-logo{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.main-2 .top4{
+    width: 700px;
+    margin: 0 auto;
+} 
+
+.top4 h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2858FF;
+}
+ .top4 h1{
+    text-align: center;
+    font-weight: 700;
+    size: 36px;
+    line-height: 40px;
+    color: #000000;
+}
+.top4 p{
+    text-align: center;
+    font-weight: 400;
+    size: 18px;
+    line-height: 27px;
+    color: #190D37;
+    margin-bottom: 30px;
+}
+
+/* Main section 2 ENDS here */
+
+/* Main section 3 starts here */
+
+.main-3{
+    
+    max-width: 1060px;
+    margin: 50px auto 0 auto;
+    border-radius: 10px;
+}
+.main-3 .top5{
+    width: 700px;
+    margin: 0 auto;
+} 
+
+.top5 h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2858FF;
+}
+ .top5 h1{
+    text-align: center;
+    font-weight: 700;
+    size: 36px;
+    line-height: 40px;
+    color: #000000;
+}
+.top5 p{
+    text-align: center;
+    font-weight: 400;
+    size: 18px;
+    line-height: 27px;
+    color: #190D37;
+    margin-bottom: 30px;
+}
+.top6{
+    display: flex;
+    
+}
+.price-box1{
+    margin-right: 5px;
+    width: 340px;
+    /* height: 405px; */
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #FFFFFF;
+
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+
+}
+.price-title{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2858FF;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+
+
+}
+.price{
+    
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.price span{
+font-size: 14px;
+font-weight: 400;
+color: #8A8A8A;
+
+}
+.price-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8A8A8A;
+    padding-bottom: 20px;
+}
+.price-options p{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #666666;
+    margin-bottom: 8px;
+    
+
+}
+.price-button{
+    width: 300px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 0px;
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: center;
+    color:  #666666;
+
+    margin-top: 8px;
+    margin-bottom: 0;
+    cursor: pointer;
+    
+    
+}
+.price-button:hover{
+    background-color: #000000;
+    color:  white;
+    transition: 0.5s ease;
+}
+.price-box3{
+    width: 340px;
+    /* height: 405px; */
+    gap: 0px;
+    border-radius: 10px ;
+    opacity: 0px;
+    background: #FFFFFF;
+
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+    margin-left: 5px;
+
+}
+.price-box2 button{
+    width: 300px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: center;
+    color:  white;
+
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.price-box2 button:hover{
+    background-color: #FFFFFF;
+    color:  black;
+    transition: 0.5s ease;
+}
+.price-box2{
+    width: 340px;
+    /* height: 405px; */
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #FFD748;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+
+}
+/* Main section 3 ENDS here */
+
+/* Footer starts here */
+
+.footer{
+    width: 100%;
+    background: #000000;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    margin-left: 0;
+    margin-right: 0;
+}
